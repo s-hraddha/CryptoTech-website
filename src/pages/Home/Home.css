@@ -1,0 +1,117 @@
+/* .home{
+   padding: 0px 10px; 
+
+} */
+.head{
+    max-width: 600px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.head h1{
+    font-size: 2.5rem;
+}
+
+.head h2{
+    font-size: 1.5rem;
+}
+.head p{
+    font-size: 1.2rem;
+    width: 35%;
+    line-height: 1.5;
+}
+
+.head form{
+    padding: 8px;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.head input{
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.head button{
+    border:none;
+    background: rgb(78, 162, 231);
+    color: black;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.crypto-table{
+    max-width: 800px;
+    margin: auto;
+    background-color:rgb(20, 1, 1);
+    border-radius: 5px;
+}
+.table-frame{
+   display: grid;
+   grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+   padding: 15px 20px;
+   align-items: center;
+   border-bottom: 1px solid #ea7037; 
+}
+
+.market-cap{
+    text-align: center;
+}
+
+.table-frame:last-child{
+    border: none;
+}
+.table-frame div{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.table-frame div img{
+    width: 35px;
+}
+
+.table-frame .green{
+    color: #00D515;
+    text-align: center;
+}
+.table-frame .red{
+    color: red;
+    text-align: center;
+}
+
+@media(max-width:768px)  {
+    .table-frame{
+        grid-template-columns: 0.5fr 3fr 1fr 1fr;
+    }
+    .market-cap{
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .table-frame div img{
+        width:25px;
+    }
+    .table-frame{
+        font-size: 13px;
+    }
+    .head form input {
+        width: 100px;
+    }
+}
