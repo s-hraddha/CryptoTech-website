@@ -33,4 +33,6 @@ API: CoinGecko
 
 # UI Screenshots
 
+<img width="1920" height="1080" alt="Screenshot (310)" src="https://github.com/user-attachments/assets/3b520421-0fdc-43f2-99a8-7f2dedc09df8" />
+
 <img width="1920" height="1080" alt="Screenshot (311)" src="https://github.com/user-attachments/assets/9b97b5c2-4a5a-4205-a9a1-27217f3684a3" />
